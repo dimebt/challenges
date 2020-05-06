@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  DSF-Technical-education
+//  Challenge-01-XcodeStoryboardAndInterfaceBuilder
 //
 //  Created by Dimitar Stefanovski on 5/6/20.
 //  Copyright © 2020 Dimitar Stefanovski. All rights reserved.

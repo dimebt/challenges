@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Challenge_01_XcodeStoryboardAndInterfaceBuilder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Netcetera 🚀" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oWJ-pF-h5q">
+                                <rect key="frame" x="63" y="182.5" width="288.5" height="45.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am Dimitar Stefanovski" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TBj-ec-gwV">
+                                <rect key="frame" x="67" y="248" width="280" height="36"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coal" translatesAutoresizingMaskIntoConstraints="NO" id="SSP-zX-LWw">
+                                <rect key="frame" x="131.5" y="384" width="151" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.48064131566905655" green="0.69336949481865284" blue="0.59004991032680509" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="TBj-ec-gwV" firstAttribute="top" secondItem="oWJ-pF-h5q" secondAttribute="bottom" constant="20" id="DZo-xm-CZI"/>
+                            <constraint firstItem="SSP-zX-LWw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="RA4-ql-RBo"/>
+                            <constraint firstItem="SSP-zX-LWw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VdL-vX-FKI"/>
+                            <constraint firstItem="TBj-ec-gwV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WfL-QZ-1Lu"/>
+                            <constraint firstItem="SSP-zX-LWw" firstAttribute="top" secondItem="TBj-ec-gwV" secondAttribute="bottom" constant="100" id="WzU-AE-Xqc"/>
+                            <constraint firstItem="oWJ-pF-h5q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="m4X-FY-8CQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="138"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="coal" width="151" height="128"/>
+    </resources>
+</document>

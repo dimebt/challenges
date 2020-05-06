@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:DSF-Technical-education.xcodeproj">
+      location = "self:Challenge-01-XcodeStoryboardAndInterfaceBuilder.xcodeproj">
    </FileRef>
 </Workspace>
